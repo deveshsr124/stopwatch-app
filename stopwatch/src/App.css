@@ -36,3 +36,50 @@
     transform: rotate(360deg);
   }
 }
+
+.timer-header {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.timer-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.timer-buttons {
+  margin-top: 10px;
+}
+
+.timer-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.timer-button:hover {
+  background-color: #45a049;
+}
+
+.timer-button:active {
+  background-color: #3e8e41;
+}
+
+.timer-button:focus {
+  outline: none;
+}
+
+.timer-text {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.timer-time {
+  font-size: 36px;
+  color: #333;
+}
